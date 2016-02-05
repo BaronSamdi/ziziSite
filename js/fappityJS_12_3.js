@@ -505,11 +505,11 @@ function() {
             || e.threadListItem.url.indexOf("twitter.com") >= 0 || e.threadListItem.url.indexOf("instagram.com") >= 0 
             || e.threadListItem.url.indexOf("facebook.com") >= 0 || e.threadListItem.url.indexOf("deviantart.com") >= 0 
             || e.threadListItem.url.indexOf("flickr.com") >= 0) ){
-        	var n = $(document.createElement("a"));
-        	n.attr("href", e.threadListItem.url), n.attr("class", "board-item-image-anchor embedly-card");
-        	r.append(n);
-        	var s = $(document.createElement("script"));
-        	s.attr("async"), s.attr("src", "//cdn.embedly.com/widgets/platform.js"), s.attr("charset", "utf-8"), n.after(s);
+	        	var n = $(document.createElement("a"));
+	        	n.attr("href", e.threadListItem.url), n.attr("class", "board-item-image-anchor embedly-card");
+	        	r.append(n);
+	        	var s = $(document.createElement("script"));
+	        	s.attr("async"), s.attr("src", "//cdn.embedly.com/widgets/platform.js"), s.attr("charset", "utf-8"), n.after(s);
             }
             
             else if (r.attr("class", "board-item"), e.imagePreviewUrl) {
