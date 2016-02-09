@@ -7585,3 +7585,9 @@ button {
 .board-item-title-anchor.fappity:visited:hover {
     color: #4b81bd;
 }
+
+.imgur-embed-iframe-pub {
+    box-shadow: none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
